@@ -17,6 +17,25 @@ if($email == "hackmail@gmail.com"){
 }
 
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "php_task";
+
+$conn = new mysqli($servername, $username, $password,$dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO students VALUES ('$student_id','$first_name','$last_name','$dob','$email','$dep')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+
 
 
 
