@@ -13,7 +13,7 @@
 
 <h2 style="text-align:center">Student Register Form</h2>
 <hr>
-<form style="margin-bottom:20px">
+<form action="insert-students-data.php" method="post" >
   
 <div class="mb-3" class="form-group">
     <label for="studentid" class="form-label">Student ID</label>
