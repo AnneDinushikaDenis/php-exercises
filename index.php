@@ -17,32 +17,32 @@
   
 <div class="mb-3" class="form-group">
     <label for="studentid" class="form-label">Student ID</label>
-    <input type="text" class="form-control" id="studentid"  placeholder="Enter Student ID" class=>
+    <input type="text" class="form-control" id="studentid"  placeholder="Enter Student ID" name="student_id">
   </div>
   
   <div class="mb-3" class="form-group">
     <label for="firstname" class="form-label">First Name</label>
-    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" >
+    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" name="first_name" >
   </div>
   
   <div class="mb-3" class="form-group">
     <label for="lastname" class="form-label">Last Name</label>
-    <input type="text" class="form-control" id="lastname"  placeholder="Enter Last Name" >
+    <input type="text" class="form-control" id="lastname"  placeholder="Enter Last Name" name="last__name" >
   </div>
   
   <div class="mb-3" class="form-group">
     <label for="dob" class="form-label">Date Of Birth</label>
-    <input type="text" class="form-control" id="dob" placeholder="Enter Date Of Birth" >
+    <input type="text" class="form-control" id="dob" placeholder="Enter Date Of Birth" name="dob">
   </div>
   
   <div class="mb-3" class="form-group">
     <label for="email" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="email1"  placeholder="Enter email" >
+    <input type="email" class="form-control" id="email1"  placeholder="Enter email" name="email_address" >
   </div>
   
   <div class="mb-3" class="form-group">
     <label for="department" class="form-label">Department</label>
-    <input type="text" class="form-control" id="department" placeholder="Enter Department" >
+    <input type="text" class="form-control" id="department" placeholder="Enter Department" name="department" >
   </div>
    
   <button type="submit" class="btn btn-primary">Submit</button>
