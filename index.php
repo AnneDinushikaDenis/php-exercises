@@ -37,7 +37,7 @@
   
   <div class="mb-3" class="form-group">
     <label for="email" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="email1"  placeholder="Enter email" name="email_address" >
+    <input type="email" class="form-control" id="email1"  placeholder="Enter email" name="email" >
   </div>
   
   <div class="mb-3" class="form-group">
