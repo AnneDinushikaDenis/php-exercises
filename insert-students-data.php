@@ -7,12 +7,16 @@ $dob=$_POST['dob'];
 $email=$_POST['email'];
 $dep=$_POST['department'];
 
-echo $student_id
-echo $first_name
-echo $last_name
-echo $dob
-echo $email
-echo $dep
+
+if($email == "hackmail@gmail.com"){
+
+    echo "Please you can't be registerd";
+}else{
+
+    echo "You can be registerd";
+}
+
+
 
 
 
